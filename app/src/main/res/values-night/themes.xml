@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Weather_labo2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="color">@color/dark_status_bar</item>
+        <item name="colorPrimary">@color/darker_blue</item>
+        <item name="colorPrimaryVariant">@color/darker_blue</item>
+        <item name="colorOnPrimary">@color/darker_blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_status_bar</item>
+        <item name="colorSecondaryVariant">@color/dark_status_bar</item>
+        <item name="colorOnSecondary">@color/dark_status_bar</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/dark_status_bar</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/darker_blue</item>
+    </style>
+</resources>
