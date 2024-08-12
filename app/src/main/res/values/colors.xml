@@ -14,4 +14,5 @@
     <color name="dark_status_bar">#121212</color>
     <color name="dark_background">#43454b</color>
     <color name="light_background">#c4ffec</color>
+    <color name="dark_button">#121212</color>
 </resources>
