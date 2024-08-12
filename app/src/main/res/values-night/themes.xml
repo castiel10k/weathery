@@ -15,5 +15,6 @@
         <!-- Customize your theme here. -->
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:colorAccent">@color/darker_blue</item>
+        <item name="android:button">#121212</item>
     </style>
 </resources>

@@ -42,7 +42,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     /**
      *initialisation des variables globales
@@ -111,7 +111,12 @@ public class MainActivity extends AppCompatActivity {
         Call<WeatherPOJO> getWeatherInformationByLang(@Query("appid") String api_key, @Query("units") String unitType, @Query("lat") double lat, @Query("lon") double lon);
     }
 
-
+    @Override
+    public void onClick(View view) {
+        if (view.getId()==R.id.button) {
+            verifyPermissions();
+        }
+    }
     /**
      * Methode pour commencer la localisation une fois
      * que les permissions necessaires sont autoriser
