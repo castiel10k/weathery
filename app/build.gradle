@@ -7,9 +7,9 @@ android {
 
     defaultConfig {
         applicationId "com.castiel2021.weather_labo2"
-        minSdk 34
+        minSdk 27
         targetSdk 34
-        versionCode 3
+        versionCode 5
         versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -22,8 +22,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility sourceCompatibility
-        targetCompatibility targetCompatibility
+        //sourceCompatibility sourceCompatibility
+        //targetCompatibility targetCompatibility
     }
     namespace 'com.example.weather_labo2'
     buildToolsVersion '34.0.0'
